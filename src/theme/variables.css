@@ -1,0 +1,149 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+
+:root {
+  /* Primary - Blue */
+  --ion-color-primary: #4A90E2;
+  --ion-color-primary-rgb: 74, 144, 226;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #417fc7;
+  --ion-color-primary-tint: #5c9ce5;
+
+  /* Secondary - Orange */
+  --ion-color-secondary: #FF9500;
+  --ion-color-secondary-rgb: 255, 149, 0;
+  --ion-color-secondary-contrast: #000000;
+  --ion-color-secondary-contrast-rgb: 0, 0, 0;
+  --ion-color-secondary-shade: #e08300;
+  --ion-color-secondary-tint: #ffa01a;
+
+  /* Tertiary - Pink */
+  --ion-color-tertiary: #FF2D55;
+  --ion-color-tertiary-rgb: 255, 45, 85;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #e0284b;
+  --ion-color-tertiary-tint: #ff4267;
+
+  /* Success - Green */
+  --ion-color-success: #34C759;
+  --ion-color-success-rgb: 52, 199, 89;
+  --ion-color-success-contrast: #000000;
+  --ion-color-success-contrast-rgb: 0, 0, 0;
+  --ion-color-success-shade: #2eaf4e;
+  --ion-color-success-tint: #48cd6a;
+
+  /* Warning - Yellow */
+  --ion-color-warning: #FFCC00;
+  --ion-color-warning-rgb: 255, 204, 0;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #e0b400;
+  --ion-color-warning-tint: #ffd11a;
+
+  /* Danger - Red */
+  --ion-color-danger: #FF3B30;
+  --ion-color-danger-rgb: 255, 59, 48;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #e0342a;
+  --ion-color-danger-tint: #ff4f45;
+
+  /* Dark */
+  --ion-color-dark: #1A1A1A;
+  --ion-color-dark-rgb: 26, 26, 26;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #171717;
+  --ion-color-dark-tint: #313131;
+
+  /* Medium */
+  --ion-color-medium: #8E8E93;
+  --ion-color-medium-rgb: 142, 142, 147;
+  --ion-color-medium-contrast: #000000;
+  --ion-color-medium-contrast-rgb: 0, 0, 0;
+  --ion-color-medium-shade: #7d7d81;
+  --ion-color-medium-tint: #9a9a9e;
+
+  /* Light */
+  --ion-color-light: #F5F5F5;
+  --ion-color-light-rgb: 245, 245, 245;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #d8d8d8;
+  --ion-color-light-tint: #f6f6f6;
+
+  /* App specific colors */
+  --ion-background-color: #FFFFFF;
+  --ion-background-color-rgb: 255, 255, 255;
+  --ion-text-color: #1A1A1A;
+  --ion-text-color-rgb: 26, 26, 26;
+  --ion-border-color: #E0E0E0;
+  --ion-item-background: #FFFFFF;
+  --ion-toolbar-background: #FFFFFF;
+  --ion-tab-bar-background: #FFFFFF;
+  --ion-card-background: #FFFFFF;
+}
+
+/* iOS Dark Theme */
+.ios body.dark {
+  --ion-background-color: #121212;
+  --ion-background-color-rgb: 18, 18, 18;
+  --ion-text-color: #FFFFFF;
+  --ion-text-color-rgb: 255, 255, 255;
+  --ion-border-color: #222222;
+  --ion-item-background: #1E1E1E;
+  --ion-toolbar-background: #1E1E1E;
+  --ion-tab-bar-background: #1E1E1E;
+  --ion-card-background: #1E1E1E;
+}
+
+/* Material Design Dark Theme */
+.md body.dark {
+  --ion-background-color: #121212;
+  --ion-background-color-rgb: 18, 18, 18;
+  --ion-text-color: #FFFFFF;
+  --ion-text-color-rgb: 255, 255, 255;
+  --ion-border-color: #222222;
+  --ion-item-background: #1E1E1E;
+  --ion-toolbar-background: #1E1E1E;
+  --ion-tab-bar-background: #1E1E1E;
+  --ion-card-background: #1E1E1E;
+}
+
+/* Additional styles */
+:root {
+  --ion-font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --ion-item-border-radius: 12px;
+  --ion-toolbar-height: 60px;
+  --ion-border-radius: 12px;
+}
+
+/* Tab bar specific styles */
+ion-tab-bar {
+  --border: none;
+  height: 60px;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.05);
+}
+
+ion-tab-button {
+  --padding-bottom: 8px;
+  --padding-top: 8px;
+}
+
+ion-input, ion-textarea {
+  --padding-start: 16px;
+  --padding-end: 16px;
+}
+
+ion-item {
+  --padding-start: 16px;
+  --padding-end: 16px;
+}
+
+ion-content {
+  --padding-start: 0;
+  --padding-end: 0;
+  --background: #F9F9F9;
+}
