@@ -1,0 +1,68 @@
+.splash-container {
+  --background: var(--ion-color-primary);
+  --color: var(--ion-color-primary-contrast);
+}
+
+.splash-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.logo-container {
+  animation: pulse 2s infinite;
+  margin-bottom: 1.5rem;
+}
+
+.splash-logo {
+  font-size: 5rem;
+  color: var(--ion-color-primary-contrast);
+}
+
+.app-name h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.03em;
+  color: var(--ion-color-primary-contrast);
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+.app-tagline p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  opacity: 0;
+  color: var(--ion-color-primary-tint);
+  animation: fadeIn 0.8s ease-in-out 0.3s forwards;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 

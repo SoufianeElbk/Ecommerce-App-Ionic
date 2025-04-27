@@ -1,0 +1,87 @@
+.register-content {
+  --background: #fff;
+  --padding-start: 1.5rem;
+  --padding-end: 1.5rem;
+}
+
+.register-container {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.welcome-section {
+  margin-bottom: 2rem;
+}
+
+.welcome-section h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--ion-color-dark);
+}
+
+.welcome-section p {
+  font-size: 1rem;
+  color: var(--ion-color-medium);
+  margin: 0;
+}
+
+.form-section {
+  margin-bottom: 2rem;
+}
+
+.custom-input {
+  --padding-start: 0;
+  --border-color: #eee;
+  --highlight-color-focused: var(--ion-color-primary);
+  --background: #f8f8f8;
+  --border-radius: 12px;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+.terms-section {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.terms-text {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  display: block;
+}
+
+.terms-text a {
+  color: var(--ion-color-primary);
+  text-decoration: none;
+}
+
+.register-button {
+  --background: var(--ion-color-primary);
+  --border-radius: 12px;
+  --box-shadow: 0 4px 12px rgba(var(--ion-color-primary-rgb), 0.4);
+  margin-bottom: 1rem;
+  height: 48px;
+  font-weight: 600;
+}
+
+.login-prompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding-bottom: 2rem;
+}
+
+@media (min-height: 700px) {
+  .register-container {
+    justify-content: center;
+  }
+  
+  .login-prompt {
+    margin-top: 2rem;
+  }
+} 

@@ -1,0 +1,130 @@
+.login-content {
+  --background: #fff;
+  --padding-start: 1.5rem;
+  --padding-end: 1.5rem;
+}
+
+.login-container {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.welcome-section {
+  margin-bottom: 2rem;
+}
+
+.welcome-section h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--ion-color-dark);
+}
+
+.welcome-section p {
+  font-size: 1rem;
+  color: var(--ion-color-medium);
+  margin: 0;
+}
+
+.form-section {
+  margin-bottom: 2rem;
+}
+
+.custom-input {
+  --padding-start: 0;
+  --border-color: #eee;
+  --highlight-color-focused: var(--ion-color-primary);
+  --background: #f8f8f8;
+  --border-radius: 12px;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+.forgot-password-button {
+  --color: var(--ion-color-medium);
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-left: auto;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.login-button {
+  --background: var(--ion-color-primary);
+  --border-radius: 12px;
+  --box-shadow: 0 4px 12px rgba(var(--ion-color-primary-rgb), 0.4);
+  margin-bottom: 1rem;
+  height: 48px;
+  font-weight: 600;
+}
+
+.demo-button {
+  --border-radius: 12px;
+  --color: var(--ion-color-primary);
+  --border-color: var(--ion-color-primary);
+  height: 48px;
+  font-weight: 600;
+}
+
+.social-login-section {
+  margin-bottom: 2rem;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+  color: var(--ion-color-medium);
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #eee;
+}
+
+.divider span {
+  padding: 0 1rem;
+  font-size: 0.85rem;
+}
+
+.google-button,
+.apple-button {
+  --background: #fff;
+  --color: var(--ion-color-dark);
+  --border-color: #ddd;
+  --border-radius: 12px;
+  margin-bottom: 1rem;
+  height: 48px;
+  font-weight: 500;
+}
+
+.google-button {
+  --color: #4285F4;
+}
+
+.apple-button {
+  --color: #000;
+}
+
+.signup-prompt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding-bottom: 2rem;
+}
+
+@media (min-height: 700px) {
+  .login-container {
+    justify-content: center;
+  }
+  
+  .signup-prompt {
+    margin-top: 2rem;
+  }
+} 
