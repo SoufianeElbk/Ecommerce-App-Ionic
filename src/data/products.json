@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Wireless Headphones",
+    "price": 199.99,
+    "discountPrice": 169.99,
+    "rating": 4.7,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b",
+      "https://images.unsplash.com/photo-1593005510329-8a4035a7238f"
+    ],
+    "colors": ["black", "white", "blue"],
+    "description": "Experience crystal-clear sound with our premium wireless headphones. Featuring active noise cancellation, 40-hour battery life, and a sleek design for ultimate comfort.",
+    "categoryId": 1,
+    "featured": true,
+    "trending": true,
+    "specifications": {
+      "batteryLife": "40 hours",
+      "connectivity": "Bluetooth 5.2",
+      "noiseReduction": "Active Noise Cancellation",
+      "weight": "245g"
+    },
+    "reviews": 153,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Smart Fitness Watch",
+    "price": 129.99,
+    "discountPrice": 99.99,
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a",
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1"
+    ],
+    "colors": ["black", "silver", "rose gold"],
+    "description": "Track your fitness goals with precision. This smart watch monitors heart rate, sleep patterns, and activity levels. Water-resistant and long-lasting battery.",
+    "categoryId": 2,
+    "featured": true,
+    "trending": true,
+    "specifications": {
+      "batteryLife": "7 days",
+      "waterResistance": "5 ATM",
+      "display": "1.4 inch AMOLED",
+      "sensors": "Heart rate, Accelerometer, Gyroscope"
+    },
+    "reviews": 98,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Ultra HD Smart TV 55\"",
+    "price": 699.99,
+    "discountPrice": 599.99,
+    "rating": 4.8,
+    "images": [
+      "https://images.unsplash.com/photo-1593784991095-a205069470b6",
+      "https://images.unsplash.com/photo-1611078489935-0cb964de46d6",
+      "https://images.unsplash.com/photo-1461151304267-38535e780c79"
+    ],
+    "colors": ["black"],
+    "description": "Transform your living room with this stunning 55-inch Ultra HD Smart TV. Features AI-powered picture quality enhancement, built-in streaming services, and voice control.",
+    "categoryId": 3,
+    "featured": true,
+    "trending": false,
+    "specifications": {
+      "resolution": "3840 x 2160 (4K)",
+      "refreshRate": "120Hz",
+      "smartFeatures": "Voice Assistant, AI Picture Quality",
+      "connectivity": "Wi-Fi, Bluetooth, HDMI x4, USB x3"
+    },
+    "reviews": 72,
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Professional Digital Camera",
+    "price": 1299.99,
+    "discountPrice": null,
+    "rating": 4.9,
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd",
+      "https://images.unsplash.com/photo-1581591524425-c7e0978865fc"
+    ],
+    "colors": ["black"],
+    "description": "Capture life's most important moments with extraordinary detail. This professional-grade digital camera offers 24.2MP resolution, 4K video recording, and superior low-light performance.",
+    "categoryId": 4,
+    "featured": false,
+    "trending": true,
+    "specifications": {
+      "sensorType": "CMOS",
+      "megapixels": "24.2MP",
+      "isoRange": "100-25600",
+      "videoResolution": "4K UHD"
+    },
+    "reviews": 47,
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Wireless Charging Stand",
+    "price": 49.99,
+    "discountPrice": 39.99,
+    "rating": 4.3,
+    "images": [
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0",
+      "https://images.unsplash.com/photo-1519923834699-ef0b7cde4712",
+      "https://images.unsplash.com/photo-1600490722773-35753a2df3b4"
+    ],
+    "colors": ["black", "white"],
+    "description": "Charge your devices without the hassle of cables. This sleek charging stand supports fast wireless charging for compatible smartphones and earbuds.",
+    "categoryId": 5,
+    "featured": false,
+    "trending": true,
+    "specifications": {
+      "chargingSpeed": "15W Fast Charging",
+      "compatibility": "Qi-enabled devices",
+      "inputPort": "USB-C",
+      "material": "Aluminum + ABS"
+    },
+    "reviews": 112,
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Portable Bluetooth Speaker",
+    "price": 89.99,
+    "discountPrice": 69.99,
+    "rating": 4.6,
+    "images": [
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1",
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
+      "https://images.unsplash.com/photo-1552585140-bdeefd6b9d6a"
+    ],
+    "colors": ["black", "blue", "red"],
+    "description": "Take your music anywhere with this powerful portable speaker. Waterproof, dustproof, and featuring 20-hour battery life.",
+    "categoryId": 1,
+    "featured": false,
+    "trending": false,
+    "specifications": {
+      "batteryLife": "20 hours",
+      "waterproofRating": "IPX7",
+      "connectivity": "Bluetooth 5.0",
+      "output": "30W"
+    },
+    "reviews": 86,
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Smartphone Gimbal Stabilizer",
+    "price": 119.99,
+    "discountPrice": null,
+    "rating": 4.4,
+    "images": [
+      "https://images.unsplash.com/photo-1617464985172-442fab8106db",
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd"
+    ],
+    "colors": ["black", "gray"],
+    "description": "Create professional-looking videos with this smartphone gimbal stabilizer. Features 3-axis stabilization, tracking modes, and easy controls.",
+    "categoryId": 4,
+    "featured": false,
+    "trending": false,
+    "specifications": {
+      "batteryLife": "12 hours",
+      "maxLoad": "280g",
+      "compatibleWith": "iOS and Android",
+      "stabilization": "3-axis"
+    },
+    "reviews": 39,
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Smart Home Security Camera",
+    "price": 149.99,
+    "discountPrice": 129.99,
+    "rating": 4.7,
+    "images": [
+      "https://images.unsplash.com/photo-1555664424-778a1e5e1b48",
+      "https://images.unsplash.com/photo-1585314614250-d213876625e1",
+      "https://images.unsplash.com/photo-1558002038-1055907df827"
+    ],
+    "colors": ["white", "black"],
+    "description": "Keep your home secure with this smart security camera. Features include motion detection, night vision, and two-way audio.",
+    "categoryId": 3,
+    "featured": true,
+    "trending": false,
+    "specifications": {
+      "resolution": "2K",
+      "fieldOfView": "130°",
+      "nightVision": "Up to 30ft",
+      "storage": "Cloud + Local SD"
+    },
+    "reviews": 63,
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Premium Wireless Earbuds",
+    "price": 159.99,
+    "discountPrice": 139.99,
+    "rating": 4.5,
+    "images": [
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46",
+      "https://images.unsplash.com/photo-1608156639585-b3a032ef9689",
+      "https://images.unsplash.com/photo-1618331835717-801e976710b2"
+    ],
+    "colors": ["black", "white", "blue"],
+    "description": "Experience immersive sound with these premium wireless earbuds. Features active noise cancellation, touch controls, and 24-hour battery life with the charging case.",
+    "categoryId": 1,
+    "featured": true,
+    "trending": true,
+    "specifications": {
+      "batteryLife": "6 hours (24 with case)",
+      "noiseReduction": "Active Noise Cancellation",
+      "waterResistance": "IPX4",
+      "connectivity": "Bluetooth 5.2"
+    },
+    "reviews": 104,
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Gaming Laptop 15.6\"",
+    "price": 1299.99,
+    "discountPrice": 1199.99,
+    "rating": 4.8,
+    "images": [
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45",
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302",
+      "https://images.unsplash.com/photo-1629429408209-1f912961dbd8"
+    ],
+    "colors": ["black"],
+    "description": "Dominate your games with this powerful gaming laptop. Features a high-refresh display, RTX graphics, and advanced cooling system.",
+    "categoryId": 6,
+    "featured": true,
+    "trending": true,
+    "specifications": {
+      "processor": "Intel Core i7-11800H",
+      "graphicsCard": "NVIDIA RTX 3070",
+      "memory": "16GB DDR4",
+      "storage": "1TB SSD"
+    },
+    "reviews": 78,
+    "inStock": true
+  }
+] 

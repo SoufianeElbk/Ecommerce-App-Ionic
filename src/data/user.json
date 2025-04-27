@@ -1,0 +1,171 @@
+{
+  "id": 1,
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "phone": "+1 (555) 123-4567",
+  "profileImage": "https://images.unsplash.com/photo-1599566150163-29194dcaad36",
+  "addresses": [
+    {
+      "id": 1,
+      "type": "Home",
+      "lineOne": "123 Main Street",
+      "lineTwo": "Apt 4B",
+      "city": "San Francisco",
+      "state": "CA",
+      "postalCode": "94105",
+      "country": "United States",
+      "isDefault": true
+    },
+    {
+      "id": 2,
+      "type": "Work",
+      "lineOne": "456 Market Street",
+      "lineTwo": "Suite 200",
+      "city": "San Francisco",
+      "state": "CA",
+      "postalCode": "94102",
+      "country": "United States",
+      "isDefault": false
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": 1,
+      "type": "Credit Card",
+      "provider": "Visa",
+      "lastFour": "4242",
+      "expiryMonth": 12,
+      "expiryYear": 2025,
+      "holderName": "John Doe",
+      "isDefault": true
+    },
+    {
+      "id": 2,
+      "type": "Credit Card",
+      "provider": "Mastercard",
+      "lastFour": "5555",
+      "expiryMonth": 10,
+      "expiryYear": 2024,
+      "holderName": "John Doe",
+      "isDefault": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-12345",
+      "date": "2023-12-15",
+      "status": "Delivered",
+      "total": 269.98,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 169.99
+        },
+        {
+          "productId": 5,
+          "quantity": 1,
+          "price": 39.99
+        },
+        {
+          "productId": 6,
+          "quantity": 1,
+          "price": 69.99
+        }
+      ],
+      "shippingAddressId": 1,
+      "trackingInfo": {
+        "carrier": "UPS",
+        "trackingNumber": "1Z9999999999999999",
+        "estimatedDelivery": "2023-12-20",
+        "status": "Delivered",
+        "statusHistory": [
+          {
+            "status": "Order Placed",
+            "date": "2023-12-15T09:30:00Z",
+            "location": "Online"
+          },
+          {
+            "status": "Processing",
+            "date": "2023-12-16T10:15:00Z",
+            "location": "Warehouse"
+          },
+          {
+            "status": "Shipped",
+            "date": "2023-12-17T14:22:00Z",
+            "location": "Distribution Center"
+          },
+          {
+            "status": "In Transit",
+            "date": "2023-12-18T08:45:00Z",
+            "location": "En Route"
+          },
+          {
+            "status": "Out for Delivery",
+            "date": "2023-12-20T07:30:00Z",
+            "location": "Local Facility"
+          },
+          {
+            "status": "Delivered",
+            "date": "2023-12-20T15:12:00Z",
+            "location": "Front Door"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ORD-12346",
+      "date": "2024-01-10",
+      "status": "Processing",
+      "total": 599.99,
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 1,
+          "price": 599.99
+        }
+      ],
+      "shippingAddressId": 1,
+      "trackingInfo": {
+        "carrier": "FedEx",
+        "trackingNumber": "7777777777777",
+        "estimatedDelivery": "2024-01-18",
+        "status": "Processing",
+        "statusHistory": [
+          {
+            "status": "Order Placed",
+            "date": "2024-01-10T14:22:00Z",
+            "location": "Online"
+          },
+          {
+            "status": "Processing",
+            "date": "2024-01-11T09:15:00Z",
+            "location": "Warehouse"
+          }
+        ]
+      }
+    }
+  ],
+  "wishlist": [2, 7, 10],
+  "cart": {
+    "items": [
+      {
+        "productId": 9,
+        "quantity": 1,
+        "color": "black"
+      },
+      {
+        "productId": 5,
+        "quantity": 2,
+        "color": "white"
+      }
+    ],
+    "totals": {
+      "subtotal": 219.97,
+      "shipping": 5.99,
+      "tax": 18.70,
+      "total": 244.66
+    }
+  }
+} 
