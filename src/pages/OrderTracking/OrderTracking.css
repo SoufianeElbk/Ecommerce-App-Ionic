@@ -1,0 +1,290 @@
+.tracking-content {
+  --background: #f9f9f9;
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+}
+
+.tracking-container {
+  padding: 0 16px;
+}
+
+.order-info-card,
+.tracking-status-card,
+.order-items-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 16px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.order-id {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+
+.order-date {
+  font-size: 0.85rem;
+}
+
+.status-chip {
+  margin: 0;
+  font-weight: 500;
+}
+
+.divider {
+  margin: 16px -16px;
+  font-size: 0.9rem;
+  --background: var(--ion-color-light);
+  --color: var(--ion-color-medium);
+}
+
+.delivery-info {
+  margin-top: 16px;
+}
+
+.address-info,
+.tracking-info {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.address-info ion-icon,
+.tracking-info ion-icon {
+  font-size: 24px;
+  margin-right: 16px;
+  margin-top: 4px;
+}
+
+.info-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.address-text,
+.tracking-info p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.section-title {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+
+.status-timeline {
+  padding-left: 12px;
+  position: relative;
+}
+
+.status-timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--ion-color-light-shade);
+  z-index: 1;
+}
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid var(--ion-color-medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+  z-index: 2;
+}
+
+.timeline-icon ion-icon {
+  font-size: 16px;
+  color: var(--ion-color-medium);
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+.status-name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.status-details {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* Status specific styles */
+.status-delivered .timeline-icon {
+  border-color: var(--ion-color-success);
+}
+
+.status-delivered .timeline-icon ion-icon {
+  color: var(--ion-color-success);
+}
+
+.status-out-for-delivery .timeline-icon,
+.status-shipped .timeline-icon {
+  border-color: var(--ion-color-primary);
+}
+
+.status-out-for-delivery .timeline-icon ion-icon,
+.status-shipped .timeline-icon ion-icon {
+  color: var(--ion-color-primary);
+}
+
+.status-processing .timeline-icon {
+  border-color: var(--ion-color-warning);
+}
+
+.status-processing .timeline-icon ion-icon {
+  color: var(--ion-color-warning);
+}
+
+.active .timeline-icon {
+  width: 36px;
+  height: 36px;
+  border-width: 3px;
+}
+
+.active .timeline-icon ion-icon {
+  font-size: 18px;
+}
+
+.active .status-name {
+  font-size: 1.1rem;
+}
+
+.order-items {
+  margin-bottom: 24px;
+}
+
+.order-item {
+  display: flex;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--ion-color-light-shade);
+}
+
+.order-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.item-image-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 16px;
+}
+
+.item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-name {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.item-meta {
+  font-size: 0.85rem;
+}
+
+.order-summary {
+  border-top: 1px solid var(--ion-color-light-shade);
+  padding-top: 16px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.summary-row.total {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--ion-color-light-shade);
+}
+
+.action-buttons {
+  margin-bottom: 16px;
+}
+
+.help-button {
+  --border-radius: 12px;
+  --border-color: var(--ion-color-medium);
+  --color: var(--ion-color-medium);
+  height: 48px;
+}
+
+.skeleton-container {
+  padding: 16px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 32px;
+  text-align: center;
+}
+
+.not-found-container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.not-found-container p {
+  margin-bottom: 24px;
+}
+
+.back-button {
+  --background: var(--ion-color-primary);
+  --border-radius: 12px;
+  height: 48px;
+  font-weight: 600;
+  width: 200px;
+} 
