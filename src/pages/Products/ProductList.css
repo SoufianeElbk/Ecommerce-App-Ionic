@@ -1,0 +1,145 @@
+.search-container {
+  padding: 0 16px 10px;
+}
+
+.product-searchbar {
+  --border-radius: 12px;
+  --background: #f3f3f3;
+  --color: var(--ion-color-medium);
+  --placeholder-color: var(--ion-color-medium);
+  --icon-color: var(--ion-color-medium);
+  --clear-button-color: var(--ion-color-medium);
+  padding: 0;
+  height: 48px;
+}
+
+.product-list-container {
+  padding: 16px;
+}
+
+/* Category Chips */
+.category-chips {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.category-chips::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.category-chips ion-chip {
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+/* View Controls */
+.view-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.view-mode-buttons {
+  display: flex;
+}
+
+.view-mode-buttons ion-button {
+  --padding-start: 8px;
+  --padding-end: 8px;
+  --box-shadow: none;
+}
+
+.sort-select {
+  max-width: 180px;
+}
+
+.sort-select ion-select {
+  --placeholder-color: var(--ion-color-medium);
+  --placeholder-opacity: 1;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Result Count */
+.result-count {
+  margin-bottom: 16px;
+}
+
+/* Product Grid */
+.product-grid {
+  padding: 0;
+}
+
+.product-column {
+  padding: 8px;
+}
+
+/* List View */
+.product-grid.list-view .product-column {
+  padding: 8px 0;
+}
+
+.no-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Filter Popover */
+.filter-popover {
+  --width: 100%;
+  --height: auto;
+  --max-height: 70%;
+}
+
+.filter-content {
+  padding: 20px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.price-ranges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.apply-filters-btn {
+  margin-top: 20px;
+  --border-radius: 12px;
+  --background: var(--ion-color-primary);
+  height: 48px;
+  font-weight: 600;
+  --box-shadow: 0 4px 12px rgba(var(--ion-color-primary-rgb), 0.3);
+} 
