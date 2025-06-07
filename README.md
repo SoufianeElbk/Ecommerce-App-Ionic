@@ -17,12 +17,30 @@ A modern, feature-rich e-commerce mobile application built with Ionic Framework 
 
 ## Screenshots
 
-- Splash & Onboarding
-- Authentication Screens
-- Home & Products Pages
-- Product Details
-- Cart & Checkout
-- Profile & Wishlist
+### Home & Product Browsing
+<div align="center">
+  <img src="screenshots/home-screen.png" alt="Home Screen" width="300"/>
+  <p><em>Home screen with featured products and categories</em></p>
+</div>
+
+### Product Details & Shopping
+<div align="center">
+  <img src="screenshots/product-detail.png" alt="Product Detail" width="300"/>
+  <p><em>Product detail page with specifications and reviews</em></p>
+</div>
+
+### Shopping Cart & Checkout
+<div align="center">
+  <img src="screenshots/cart-checkout.png" alt="Cart and Checkout" width="300"/>
+  <p><em>Shopping cart management and checkout process</em></p>
+</div>
+
+### User Authentication
+<div align="center">
+  <img src="screenshots/auth-screens.png" alt="Authentication Screens" width="300"/>
+  <p><em>Login and registration screens</em></p>
+</div>
+
 
 ## Pages Included
 
