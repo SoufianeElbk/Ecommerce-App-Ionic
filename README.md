@@ -73,7 +73,7 @@ A modern, feature-rich e-commerce mobile application built with Ionic Framework 
 
 1. Clone this repository
 ```bash
-git clone https://github.com/yourusername/ionic-ecommerce-app.git
+git clone https://github.com/soufianeElbk/ionic-ecommerce-app.git
 cd ionic-ecommerce-app
 ```
 
